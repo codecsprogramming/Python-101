@@ -6,6 +6,7 @@
 ## find, rfind VS index
 ## replace
 ## quote inside quote - escaping
+## dir function
 
 # -------------------------------------------------------------------------
 
