@@ -1,5 +1,40 @@
 # ---------------------------------DAY 3-----------------------------------
 
+# list, tuple, dictionary, set
+## list
+### add item
+### add 2 lists
+### remove
+### pop
+### count
+### copy
+### insert
+### sort
+### reverse method, reversed function
+### del keyword
+### list comprehension
+### str->list, list->str, list->bytes, bytes->list
+
+## tuple (immutable)
+
+## dict
+### add item to dict
+### delete item
+### dynamic key value for dict
+
+## set (mutable, no duplicate, unordered)
+### assign item (!)
+### add item
+### remove item
+
+# -------------------------------------------------------------------------
+
+# if/elif/else
+## falsy expressions
+## and or, priority
+## grouping
+## TASK: IP address format validator
+
 # loops
 ## range()
 ## for loop
@@ -11,8 +46,9 @@
 
 ## while loop
 ### else
+
+## TASK: find subnet mask from slash notation
 ## TASK: number guess game
-## TASK: password strength checker
 ## TASK: caesar cipher
 
 # -------------------------------------------------------------------------
@@ -23,6 +59,7 @@
 ## reading binary files
 ## changing encoding
 ## with keyword
-## TASK: log file analyzer script to detect brute-force attack
+## TASK: apache log file analysis
+
 ## TASK: CTF challenge
-## TASK: file system scanner for sensitive files (e.g., passwords.txt) and insecure permissions
+## TASK: apache log file analysis
