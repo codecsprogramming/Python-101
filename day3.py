@@ -34,6 +34,7 @@
 ## falsy expressions
 ## and or, priority
 ## grouping
+## one-liner syntax
 ## TASK: IP address format validator
 
 # loops
