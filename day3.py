@@ -21,6 +21,7 @@
 ### add item to dict
 ### delete item
 ### dynamic key value for dict
+### dict.update
 
 ## set (mutable, no duplicate, unordered)
 ### assign item (!)
