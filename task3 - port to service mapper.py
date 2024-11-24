@@ -1,19 +1,20 @@
 # TASK: port to service mapper
 # a. Run the program in while True loop until exit is selected
-# b. Store a dictionary with default 5 ports
-# c. Show options to user
+# b. Store a dictionary with default 5 ports - ports are keys, service names are values
+# c. Show options to user in every iteration
 ## 1. Query a port -> take input from user, find it from dictionary and show service name to user. 
-### 1.1 Check if port is valid
-### 1.2 Show error if does not exist
+### 1.1 Check if port exists in dictionary
 
 ## 2. Add a service -> take port from user, take name from user, add to dictionary 
-### 2.1 Check if port not in dictionary -> Show error
-### 2.2 Check if port not in range 1-65535 -> Show error
-### 2.3 Check if service not in dictionary -> Show error
-### 2.4 Check if service is empty -> Show error
+### 2.1 Check if port is numeric
+### 2.2 Check if port in range 1-65535
+### 2.3 Check if port not in dictionary keys
+### 2.4 Check if service is empty
+### 2.5 Check if service not in dictionary values
 
 ## 3. List all services
 ### 3.1 Print all services in new line
+#### port -> servicename 
 
 ## 4. Exit - break out of loop
 

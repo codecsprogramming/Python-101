@@ -5,16 +5,17 @@
 ## for loop
 ### list
 ### string
-### bytearray
+### bytes
 ### object keys(), values(), items()
 ### else
+### continue
+### break
 
 ## while loop
 ### else
 
-## TASK: find subnet mask from slash notation
-## TASK: number guess game
-## TASK: caesar cipher
+## TASK: caesar cipher - encrypt, decrypt
+## TASK: create patterns from a list of passwords
 
 # -------------------------------------------------------------------------
 
@@ -24,10 +25,9 @@
 ## reading binary files
 ## changing encoding
 ## with keyword
-## TASK: apache log file analysis
-
 ## TASK: CTF challenge
-## TASK: apache log file analysis
+
+# -------------------------------------------------------------------------
 
 # Exceptions and Error handling
 ## try, except
@@ -36,12 +36,18 @@
 ## finally
 ## raise exception
 
+# -------------------------------------------------------------------------
+
 # Functions
 ## code reuse
 ## recursive function
 ## default value for arguments
 ## *args **kwargs
 ## assert
+## TASK: prime number detector - use exception handling
+## TASK: apache log file analysis
+
+# -------------------------------------------------------------------------
 
 # pip
 ## sys
@@ -62,8 +68,15 @@
 ### remove
 ### rmdir
 ### rename
+## TASK: create a copy of a folder in another path
 
-## TASK: file system scanner for sensitive files (e.g., passwords.txt) and insecure permissions
+## random
+### random
+### randint
+### seed
+### choice
+### shuffle
+## TASK: number guess game
 
 ## base64
 ### encode/decode string
@@ -73,8 +86,7 @@
 ### encode/decode from/to file
 
 ## hashlib
-
-## TASK: simple ransomware to hash file contents and rename filenames to {ORIGINAL_NAME}-{BASE64_ENCODED_NAME} given output path
+## TASK: implement hash cracker given hash and mode (md5, sha256)
 
 ## json
 ### load from string
@@ -83,6 +95,4 @@
 ### set indent
 
 ## re
-## TASK: implement hash cracking logic (md5, sha256)
-## TASK: CTF with json and base64
-## TASK: file system scanner for sensitive files (e.g., passwords.txt) and insecure permissions
+## TASK: file system scanner for sensitive files (e.g., passwords.txt) with regex
