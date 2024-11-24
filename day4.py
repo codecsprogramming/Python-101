@@ -1,3 +1,34 @@
+# ---------------------------------DAY 4-----------------------------------
+
+# loops
+## range()
+## for loop
+### list
+### string
+### bytearray
+### object keys(), values(), items()
+### else
+
+## while loop
+### else
+
+## TASK: find subnet mask from slash notation
+## TASK: number guess game
+## TASK: caesar cipher
+
+# -------------------------------------------------------------------------
+
+# files
+## File open modes - r, r+, w, w+, a, a+
+## File methods - read, readlines, readline, write, writelines, seek, truncate,
+## reading binary files
+## changing encoding
+## with keyword
+## TASK: apache log file analysis
+
+## TASK: CTF challenge
+## TASK: apache log file analysis
+
 # Exceptions and Error handling
 ## try, except
 ## catch specific errors - e.g. zero division
