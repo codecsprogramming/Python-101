@@ -6,7 +6,6 @@ while True:
     counter =0
     a=input("enter the ip addr: ")
     var = a.split(".")
-
     if( len(var)<=3):
         counter+=1
         print("sehvdir")
@@ -30,14 +29,14 @@ while True:
     ip4=int(var[3])
 
 
-if (ip4>255 or ip4<0):
-    counter+=1
+    if (ip4>255 or ip4<0):
+        counter+=1
 
 
-if (counter>0):
-    print("ip sehvdir")
-else:
-    print("duzdur")
+    if (counter>0):
+        print("ip sehvdir")
+    else:
+        print("duzdur")
 
 '''
 ip = input("Enter ip: ")

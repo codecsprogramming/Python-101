@@ -183,7 +183,7 @@ dict2 = {"key": "value", "key2": 1, "1": 2}
 # else:
 #     print("There")
 ## one-liner syntax - ternary
-print(1 if 1 == 2 else (2 if 3 == 2 else 5))
+# print(1 if 1 == 2 else (2 if 3 == 2 else 5))
 # RESULT1 IF COND1 ELSE (RESULT2 IF COND2 ELSE (RESULT3 IF COND3 ELSE RESULT4))
 
 ## TASK: IP address format validator
