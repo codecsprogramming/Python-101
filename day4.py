@@ -143,9 +143,54 @@ f = open("ctf.txt", "r+")
 # Exceptions and Error handling
 ## try, except
 ## catch specific errors - e.g. zero division
+
+# try:
+    # print(int("here"))
+    # a = [0,1,2][56]
+    # 1/0
+#     "fgfd" + 1
+# except ZeroDivisionError:
+#     print("0 a bolmek olmaz")
+# except IndexError:
+#     print("Bele index yoxdu")
+# except ValueError:
+#     print("Bu integer deyil axi!")
+# except Exception as e:
+#     print("Basqa error bas verdi: ", e)
 ## else
+# try:
+#     # 1/0
+#     a = input("Birinci reqem: ")
+#     b = input("Ikinci reqem: ")
+#     c = int(a) * int(b)
+# except:
+#     print("Error")
+# else:
+#     print("Error cixmadi")
+#     print(c)
 ## finally
+# try:
+#     # 1/0
+#     a = input("Birinci reqem: ")
+#     b = input("Ikinci reqem: ")
+#     c = int(a) * int(b)
+# except:
+#     print("Error")
+# else:
+#     print("Error cixmadi")
+#     print(c)
+# finally:
+#     print("Proqram bitdi")
+
 ## raise exception
+# try:
+#     a = input("Sozunu de: ")
+#     if "salam" not in a:
+#         raise Exception("Salam ver!")
+# except Exception as e:
+#     print(e)
+# else:
+#     print("Eleykime salam")
 
 # -------------------------------------------------------------------------
 
