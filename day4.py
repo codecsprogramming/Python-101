@@ -1,18 +1,93 @@
 # ---------------------------------DAY 4-----------------------------------
 
 # loops
+## for
+# for i in range(1, 10):
+#     print(i)
+
 ## range()
+# print(list(range(1,10)))
+
 ## for loop
 ### list
+# lst = ["salam", 1.5, -0.2, {}, {"a": {}}]
+# for i in lst:
+    # print(i)
+    # for k in i:
+        # print(k)
 ### string
+# for i in list("sgfdfgdfgdfhgf"):
+    # print(i)
+
 ### bytes
+# for i in b"salam":
+#     print(i)
 ### object keys(), values(), items()
+obj = {"key1": "val1", "key2": [1,2,3]}
+# for i in obj.keys():
+#     print(i)
+# for i in obj.values():
+#     print(i)
+
+# for kv in obj.items():
+#     print(kv, type(kv))
+
+# key1: val1
+# key2: val2    
+# for key, value in obj.items():
+#     print(f"{key}: {value}")
+
 ### else
+# for i in range(1, 10):
+#     print(i)
+#     if i == 55:
+#         break
+# else:
+#     print("Here")
+
+### reverswe loop
+# for i in reversed(range(55, 60)):
+#     print(i)
+
+### step
+# for i in range(0, 15, 2):
+    # print(i) # only cut ededler
+
+# for i in range(NUM) -> START=0, END=NUM, STEP=1
+# for i in range(NUM1, NUM2) -> START=NUM1, END=NUM2, STEP=1
+# for i in range(NUM1, NUM2, NU3) -> START=NUM1, END=NUM2, STEP=NUM3
+
 ### continue
+# for i in range(1, 10):
+#     if i == 6:
+#         continue
+#     print(i)
+# else:
+#     print("bitdi")
 ### break
+# for i in range(1, 10):
+#     if i == 6:
+#         break
+#     print(i)
+# else:
+#     print("bitdi")
+### pass
+for i in range(10):
+    pass
 
 ## while loop
+i = 2
+# while i < 1000000000:
+#     print(i)
+#     i *= i
 ### else
+# while i < 10:
+#     print(i)
+#     i *= i
+#     if i > 10:
+#         break
+# else:
+#     print("Bitdi")
 
 ## TASK: caesar cipher - encrypt, decrypt
 ## TASK: create patterns from a list of passwords
@@ -20,10 +95,46 @@
 # -------------------------------------------------------------------------
 
 # files
+f = open("ctf.txt", "r+")
+# print(f, type(f))
+# print(dir(f))
+## File methods - read, readlines
+# print(type(f.readline()))
+# lines = f.readlines()
+# for line in lines:
+#     line = line.strip()
+#     print(f"[+] {line}")
+# f.close()
 ## File open modes - r, r+, w, w+, a, a+
-## File methods - read, readlines, readline, write, writelines, seek, truncate,
+## File methods - write, writelines
+# f = open("temp", "w")
+# f.write("salam\n")
+# f.write("salam2")
+# f.writelines(["salam\n", "salam2"])
+# f.close()
+## File methods - seek
+# f = open("temp", "r")
+# f.seek(6)
+# print(f.readline())
+# f.close()
+## File open modes - r, r+, w, w+, a, a+
+# f = open("temp", "a")
+# f.write("3333333333")
+# print(f.readline())
+# f.close()
+# with open("temp", "r") as f:
+#     print(f.readlines())
+
+# print(f.readlines())
+
 ## reading binary files
+# with open("filemodes.png", "rb") as f:
+#     print(list(f.read()))
+
 ## changing encoding
+# with open("a", "r", encoding="utf-8") as f:
+#     print(f.read())
+
 ## with keyword
 ## TASK: CTF challenge
 
