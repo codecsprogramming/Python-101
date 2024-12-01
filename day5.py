@@ -196,6 +196,7 @@ import os
 
 ### rmdir
 ### rename
+print(os.path.isfile("C:\\Users\\nasiba.shahverdiyeva\\Desktop\\Python-101"))
 ## TASK: create a copy of a folder in another path
 
 ## random
