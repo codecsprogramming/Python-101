@@ -198,30 +198,3 @@ import os
 ### rename
 print(os.path.isfile("C:\\Users\\nasiba.shahverdiyeva\\Desktop\\Python-101"))
 ## TASK: create a copy of a folder in another path
-
-## random
-### random
-### randint
-### seed
-### choice
-### shuffle
-## TASK: number guess game
-
-## base64
-### encode/decode string
-### altchars
-### validate
-### urlsafe_b64encode, urlsafe_b64decode
-### encode/decode from/to file
-
-## hashlib
-## TASK: implement hash cracker given hash and mode (md5, sha256)
-
-## json
-### load from string
-### load from file
-### write to file
-### set indent
-
-## re
-## TASK: file system scanner for sensitive files (e.g., passwords.txt) with regex

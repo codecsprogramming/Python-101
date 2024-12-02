@@ -1,6 +1,6 @@
-# TASK: invent your own encryption algorithm
-# TASK: take 2 URLs as input and tell whether they have the same origin
 # TASK: destructive malware to hash file contents and rename filenames to {ORIGINAL_NAME}-{BASE64_ENCODED_NAME} in given path
-# TASK: apache log file analysis
-# TASK: prime number detector - use exception handling
-# TASK: apache log file analysis
+# TASK: prime number detector
+# TASK: file system scanner for sensitive files (e.g., passwords.txt) - re, os.walk
+# TASK: invent your own encryption algorithm
+# TASK: User registration, login, delete, change password
+# TASK: login brute-force script
