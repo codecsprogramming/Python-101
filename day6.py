@@ -20,8 +20,8 @@
 ## sha256
 ## update
 ## hexdigest
-## digest()
-## TASK: implement hash cracker given hash and mode (md5, sha256)
+## digest
+## TASK: implement hash cracker given hash, mode and wordlist (take arguments from command line)
 
 ## json
 ### load from string
@@ -30,7 +30,7 @@
 ### set indent
 
 ## re
-## TASK: file system scanner for sensitive files (e.g., passwords.txt) with regex
+## TASK: source code repo scanner for hardcoded credentials and API keys in files with regex and show findings
 
 # -------------------------------------------------------------------------
 
@@ -45,4 +45,5 @@
 ## verify=False
 ## uploading file
 ## BeautifulSoup
-## TASK: implement web scraper
+## TASK: security header checker
+## TASK: implement web scraper that extract links from HTML pages
