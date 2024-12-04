@@ -4,3 +4,4 @@
 # TASK: invent your own encryption algorithm
 # TASK: User registration, login, delete, change password
 # TASK: login brute-force script
+# TASK: number guess game

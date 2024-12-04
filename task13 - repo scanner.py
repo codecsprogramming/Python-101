@@ -1,3 +1,4 @@
+# https://github.com/juice-shop/juice-shop
 # TASK: source code repo scanner for sensitive information
 # 1. Iterate over files in a repo excluding certain extensions
 # 2. Read file contents

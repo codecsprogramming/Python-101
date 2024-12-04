@@ -6,7 +6,6 @@
 ### seed
 ### choice
 ### shuffle
-## TASK: number guess game
 ## TASK: secure password generator given policy
 
 ## base64
@@ -30,6 +29,14 @@
 ### set indent
 
 ## re
+## match
+## search
+## group
+## compile
+## findall
+## split
+## sub
+## escape
 ## TASK: source code repo scanner for hardcoded credentials and API keys in files with regex and show findings
 
 # -------------------------------------------------------------------------
@@ -37,13 +44,13 @@
 # requests
 ## thm room
 ## get
+## verify=False
+## proxies
+## TASK: security header checker
 ## post - data, json
 ## session
-# TASK: login brute-force script
 ## timeout
-## proxies
-## verify=False
 ## uploading file
+## TASK: login brute-force script
 ## BeautifulSoup
-## TASK: security header checker
-## TASK: implement web scraper that extract links from HTML pages
+## TASK: implement web scraper
