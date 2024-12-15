@@ -8,3 +8,4 @@
 #   e. If yes, repeat steps for each endpoint found
 
 # Optional functionality: store each response in files inside nested folders
+

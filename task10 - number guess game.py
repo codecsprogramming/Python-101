@@ -10,3 +10,32 @@
 ### 8. Print "Too low"
 ## 9. If C:
 ### 10. Congratulate the user and show the number of guesses user have made
+
+from random import randrange
+
+min = 1
+max = 100
+eded = randrange(min, max)
+count = 0
+while True:
+    try:
+        myguess = int(input(f"{min}-{max} arasi eded de: "))
+        count += 1
+        if count == 7:
+            print("Sansini kaybettin")
+            break
+        if myguess < min or myguess > max:
+            print("Out of range")
+            continue
+        if myguess > eded:
+            max = myguess
+            print("Too high")
+            continue
+        elif myguess < eded:
+            min = myguess
+            print("Too low")
+        else:
+            print(f"Congrats! {myguess} is correct. You found ")
+            break
+    except:
+        print("Invalid input")
